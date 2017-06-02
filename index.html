@@ -1,0 +1,620 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del equipo</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head> 
+<body onLoad="MM_preloadImages('imagenes/cienciasdelacomputacion2.jpg','imagenes/UNAM2.jpg','imagenes/UVP.jpg','imagenes/logobuap.png','imagenes/UDLAP.gif','imagenes/IPN2.jpg','imagenes/UDLACDMX.jpg')"> 
+ <div data-role="page"id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+     <h1>Datos del Dispositivo</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+    <div>
+       <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Ciencias de la Computación</h2>
+           </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+           <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Criminología</h2>
+           </a>
+         </li>
+         <li class="ui-first-child ui-last-child"> 
+           <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Psicología</h2>
+           </a>
+        </li>
+        <li class="ui-first-child ui-last-child"> 
+           <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Datos del Desarrollador</h2>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1" align="center">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/psicologia2.png" alt="psicologia2" title="psicologia2" id="wows1_0"/></li>
+		<li><img src="data1/images/computacion1.jpg" alt="computacion1" title="computacion1" id="wows1_1"/></li>
+		<li><img src="data1/images/computacion3.jpg" alt="computacion3" title="computacion3" id="wows1_2"/></li>
+		<li><img src="data1/images/criminologia1.jpg" alt="criminologia1" title="criminologia1" id="wows1_3"/></li>
+		<li><img src="data1/images/criminologia2.jpg" alt="criminologia2" title="criminologia2" id="wows1_4"/></li>
+		<li><img src="data1/images/computacion2.jpg" alt="computacion2" title="computacion2" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/psicologia1.jpg" alt="slider" title="psicologia1" id="wows1_6"/></a></li>
+		<li><img src="data1/images/criminologia3.jpg" alt="criminologia3" title="criminologia3" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="psicologia2"><span><img src="data1/tooltips/psicologia2.png" alt="psicologia2"/>1</span></a>
+		<a href="#" title="computacion1"><span><img src="data1/tooltips/computacion1.jpg" alt="computacion1"/>2</span></a>
+		<a href="#" title="computacion3"><span><img src="data1/tooltips/computacion3.jpg" alt="computacion3"/>3</span></a>
+		<a href="#" title="criminologia1"><span><img src="data1/tooltips/criminologia1.jpg" alt="criminologia1"/>4</span></a>
+		<a href="#" title="criminologia2"><span><img src="data1/tooltips/criminologia2.jpg" alt="criminologia2"/>5</span></a>
+		<a href="#" title="computacion2"><span><img src="data1/tooltips/computacion2.jpg" alt="computacion2"/>6</span></a>
+		<a href="#" title="psicologia1"><span><img src="data1/tooltips/psicologia1.jpg" alt="psicologia1"/>7</span></a>
+		<a href="#" title="criminologia3"><span><img src="data1/tooltips/criminologia3.jpg" alt="criminologia3"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<br>
+
+<div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;" align="center">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="http://carrerasenpuebla.blogspot.mx/2012/04/universidad-del-valle-de-puebla-uvp.html" target="_self" data-role="button">
+           <h4>Mas carreras (UVP)</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      
+      <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;" align="center">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="http://carrerasenpuebla.blogspot.mx/2012/03/buap.html" target="_self" data-role="button">
+           <h4>Mas carreras (BUAP)</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4> Guia de carreras </h4>
+        <img src="res/android/mdpi.png" width="56" height="46">
+      </div>
+      </div>
+      
+      <div data-role="page"id="page2" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>Licenciatura en Ciencias de la Computación</h1>
+      </div>
+      <center><h1>UNIVERSIDADES</h1></center>
+      <div data-role="main" class="ui-content">
+       <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Benemérita Universidad Autónoma de Puebla</h2>
+           </a>
+        </li>
+        <li class="ui-first-child ui-last-child"> 
+           <a href="#page7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Universidad Nacional Autónoma de México</h2>
+           </a>
+        </li>
+        </ul>
+       </div><br>
+       
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2" align="center">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/buap2.jpg" alt="BUAP2" title="BUAP2" id="wows2_0"/></li>
+		<li><img src="data2/images/unam2.jpg" alt="UNAM2" title="UNAM2" id="wows2_1"/></li>
+		<li><img src="data2/images/buap3.jpg" alt="BUAP3" title="BUAP3" id="wows2_2"/></li>
+		<li><img src="data2/images/unam4.jpg" alt="UNAM4" title="UNAM4" id="wows2_3"/></li>
+		<li><img src="data2/images/buap.jpg" alt="BUAP" title="BUAP" id="wows2_4"/></li>
+		<li><img src="data2/images/unam.jpg" alt="UNAM" title="UNAM" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data2/images/buap4.jpg" alt="bootstrap carousel" title="BUAP4" id="wows2_6"/></a></li>
+		<li><img src="data2/images/unam3.jpg" alt="UNAM3" title="UNAM3" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="BUAP2"><span><img src="data2/tooltips/buap2.jpg" alt="BUAP2"/>1</span></a>
+		<a href="#" title="UNAM2"><span><img src="data2/tooltips/unam2.jpg" alt="UNAM2"/>2</span></a>
+		<a href="#" title="BUAP3"><span><img src="data2/tooltips/buap3.jpg" alt="BUAP3"/>3</span></a>
+		<a href="#" title="UNAM4"><span><img src="data2/tooltips/unam4.jpg" alt="UNAM4"/>4</span></a>
+		<a href="#" title="BUAP"><span><img src="data2/tooltips/buap.jpg" alt="BUAP"/>5</span></a>
+		<a href="#" title="UNAM"><span><img src="data2/tooltips/unam.jpg" alt="UNAM"/>6</span></a>
+		<a href="#" title="BUAP4"><span><img src="data2/tooltips/buap4.jpg" alt="BUAP4"/>7</span></a>
+		<a href="#" title="UNAM3"><span><img src="data2/tooltips/unam3.jpg" alt="UNAM3"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4> Universidades para </h4>
+        <h4>Ciencias de la Computacion</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+      <div data-role="page"id="page3" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>Criminologia</h1>
+      </div>
+      <center><h1>UNIVERSIDADES</h1></center>
+      <div data-role="main" class="ui-content">
+       <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="#page8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Universidad del Valle de Puebla</h2>
+           </a>
+        </li>
+        <li class="ui-first-child ui-last-child"> 
+           <a href="#page9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Benemérita Universidad Autónoma de Puebla</h2>
+           </a>
+        </li>
+        </ul>
+       </div><br>
+       <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('logoscrimi','','imagenes/logobuap.png',1)"><img src="imagenes/UVP2.jpg" width="383" height="127" id="logoscrimi"></a></center>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4> Uiversidades para Criminologia</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+    <div data-role="page"id="page4" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>Psicología</h1>
+      </div>
+      <center><h1>UNIVERSIDADES</h1></center>
+      <div data-role="main" class="ui-content">
+       <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="#page10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Instituto Politécnico Nacional </h2>
+           </a>
+        </li>
+        <li class="ui-first-child ui-last-child"> 
+           <a href="#page11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Universidad De Las Américas </h2>
+           </a>
+        </li>
+        </ul>
+       </div><br>
+       <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('psicologialogos','','imagenes/UDLAP.gif',1)"><img src="imagenes/IPN.png" width="268" height="207" id="psicologialogos"></a></center>
+       
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4> Universidades para Psicologia</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page5" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>Datos del Desarrollador</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div>
+       <center><h2> 
+       <p>Nombre: Oscar Jared Enriquez López </p>
+       <p>Semestre: 4to Grupo: &quot;G&quot;</p>
+       <p>Aplicacion 10 </p>
+       <p>Especialidad: Programacion </p>
+       <p>SubModulo: Aplicaciones Moviles </p>
+       <p>Docente: Lic. José Antonio Gómez Hernandez</p>
+       </h2></center>
+       </div>
+      </div>
+
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4> Oscar Jared Enriquez López </h4>
+        <h4> Aplicacion 10 </h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page6" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>BUAP</h1>
+  </div>
+      <div data-role="main" class="ui-content">
+       <div>
+       <center><h1>Licenciatura en Ciencias de la Computación</h1></center>
+       <h2>Perfil de Ingreso</h2>
+       <h4>El estudiante deberá contar con las siguientes características para ingresar al Plan de Estudios de la Licenciatura  en Ciencias de la Computación:<P>
+         <a href="http://www.buap.mx/" target="_self">BUAP</a>        
+       </h4>
+       <center>
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('computacion','','imagenes/cienciasdelacomputacion2.jpg',1)"><img src="imagenes/cienciasdelacomputacion.jpg" name="computacion" width="366" height="198" id="computacion"></a></p></center>
+       <div data-role="collapsible" data-content-theme="false">
+       <h4>Habilidades</h4>
+            <h4>Creatividad e iniciativa en la búsqueda de soluciones a problemas concretos.<br>
+            Capacidad creativa y analítica, inteligencia práctica, perseverancia y compromiso social.<br>
+            Capacidad  de observación, iniciativa y disposición al  trabajo en equipo.<br>
+            Habilidad para la lectura y comprensión de textos.<br></h4>
+     </div>
+     <div data-role="collapsible" data-content-theme="false">
+       <h4>Actitudes y valores</h4>
+       <h4><br>
+          Una  actitud  favorable  para  adquirir  nuevos  conocimientos  y realizar innovaciones.<br>
+          Inclinación hacia las materias de ciencias aplicadas.<br>
+          De respeto y empatía con las personas.<br>
+          De honestidad y responsabilidad.<br>
+          De liderazgo y humanismo.<br>
+          Actitud participativa.<br>
+          Empatía, apertura al dialogo, comprensión y tolerancia hacia la diversidad cultural.<br>
+       </h4>
+     </div>
+     <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="http://cmas.siu.buap.mx/portal_pprd/wb/EDUCATIVA/ingenieria_en_ciencias_de_la_computacion_1" target="_self" data-role="button">
+           <h4>Mas información</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+</div>
+      </div>
+      
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4>Ciencias de la Computación BUAP</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page7" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>UNAM</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div>
+       <h2>Licenciatura en Ciencias de la Computación</h2>
+       </div>
+       <p><span lang="ES">Esta carrera forma al profesional con conocimientos teóricos sólidos en la disciplina y con habilidades de programación; capaz de desarrollar soluciones computacionales de frontera. Proporciona los fundamentos que le permiten adaptarse a tecnologías emergentes e ideas nuevas. </span><a href="http://oferta.unam.mx/carreras/69/ciencias-de-la-computacion" target="_self">UNAM</a></p>
+       <center><p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('UNAM','','imagenes/UNAM2.jpg',1)"><img src="imagenes/UNAM.jpg" name="UNAM" width="246" height="217" id="UNAM"></a></p></center>
+       <div data-role="collapsible" data-content-theme="false">
+       <h4>Características del aspirante<br></h4>
+       <h4><p><span lang="ES">El aspirante a ingresar a esta carrera deberá tener como características deseables:<br>
+         * </span><span lang="ES">Gusto y talento para las matemáticas.<br>
+           * </span><span lang="ES">Capacidad de abstracción.<br>
+             * </span><span lang="ES">Un cierto grado de perfeccionismo para ser exitoso en esta disciplina.<br>
+         * </span><span lang="ES">Capacidad de concentración, análisis y trabajo en equipo.</span></p>
+       <p><span lang="ES">Además, es importante:</span></p>
+       <p><span lang="ES">* Haber cursado la asignatura de Cálculo Diferencial e Integral en el bachillerato, ya sea en la Escuela Nacional Preparatoria o en el Colegio de Ciencias y Humanidades, pues necesitará poseer la habilidad para razonar, resolver problemas, y comprender y manejar el lenguaje matemático.<br>
+         * </span><span lang="ES">Contar con interés por la investigación y capacidad para la organización y la síntesis; y estar dispuesto a tomar decisiones y trabajar bajo presión.<br>
+           * </span><span lang="ES">Que sea capaz de entender documentos técnicos en inglés (o tener la disposición de adquirir esta capacidad en un corto plazo), pues la mayor parte de los textos están escritos en este idioma, además de que la interacción con el equipo de cómputo es en inglés</span><br>
+       </p></h4>
+       </div>
+       <div data-role="collapsible" data-content-theme="false">
+       <h4>Condiciones particulares<br>
+       </h4>
+       <h4><p align="left">Se deberá dedicar tiempo completo a los estudios, pues además de las clases, se desarrollan prácticas en el laboratorio de cómputo y se participa en proyectos de investigación y de aplicación.</p>
+       <p align="left">Sólo se realizan gastos relativos a adquisición de libros y material didáctico, aunque es recomendable contar con una computadora personal, ya que esto contribuye a flexibilizar la estancia del alumno en la Facultad.</p>
+       <p><span lang="ES">Se tienen que acreditar los tres primeros cursos de inglés para poder continuar con las materias del quinto semestre en adelante.</span><br>
+     </p></h4>
+       </div>
+       <h2>Descargar plan de estudios</h2>
+       <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="http://oferta.unam.mx/carrera/archivos/planes/cienciascomputacion-fciencias-planestudios17.pdf" target="_self" data-role="button">
+           <h4>Plan de estudios</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      </div>
+      
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4>Ciencias de la Computación UNAM</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page8" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>UVP</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div>
+       <CENTER><h1>Licenciatura en Criminología
+       </h1>
+       </CENTER>
+       <p>
+       <h3>Un licenciado en Criminología es un profesionista preparado para afrontar las realidades sociales de inseguridad que vive el país, líder comprometido con la sociedad, propositivo, que busque continuamente una tendencia preventiva; para mejorar el sistema de Justicia Mexicano que vislumbre nuevos modelos y políticas criminológicas, con la capacidad de generar nuevos conocimientos en el estudio del criminal y la víctima para una mejor procuración e impartición de justicia.</h3>
+       <p><a href="https://www.uvp.mx/" target="_self">UVP</a></p>
+       </p>
+       <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('uvp12','','imagenes/UVP.jpg',1)"><img src="imagenes/UVP3.jpg" name="uvp12" width="280" height="250" id="uvp12"></a></center></div>
+      </div>
+      <div data-role="collapsible" data-content-theme="false">
+       <h4>Perfil de Ingreso<br>
+       </h4>
+       <ul>
+         <h4><li>Tener interés por la justicia.</li>
+         <li>Capacidad de análisis y síntesis.</li>
+         <li>Disposición humanista</li>
+         <li>Poseer habilidades para la observación, deliberación y resolución.</li>
+         <li>Facilidad para el estudio de casos.</li></h4>
+       </ul>
+       <p><br>
+       </p>
+       </div>
+       <div data-role="collapsible" data-content-theme="false">
+       <h4>Campo Laboral<br>
+       </h4>
+       <ul>
+         <h4><li>Haciendo investigaciones o peritajes para el sector público.</li>
+         <li>Policía ministerial.</li>
+         <li>En el área de investigación, donde puede proponer e innovar en temas como técnicas periciales, tratamiento penitenciario entre otros.</li>
+         <li>Docente e investigador universitario.</li>
+         <li>Como investigador privado en materia criminal.</li></h4>
+       </ul>
+       <p><br>
+       </p>
+       </div>
+       <center><img src="imagenes/UVP2.jpg" width="439" height="125"></center>
+      <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="https://www.uvp.mx/negocios-hospitalidad-sociales/criminologia" target="_self" data-role="button">
+           <h4>Mas Información</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4> Criminologia UVP</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page9" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>BUAP</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div>
+       <CENTER><h1>Licenciatura en Criminología</h1>
+         <p><img src="imagenes/buap.jpg" width="331" height="173" alt="crimibuap"></p>
+         <h2>Perfil de Ingreso</h2> </CENTER>
+       <p>
+       <h3>El aspirante a ingresar a la Licenciatura en Criminología deberá contar con conocimientos básicos de: ciencias sociales y humanidades, ortografía, redacción, informática y matemáticas. Además, los candidatos deberán tener interés y habilidad en la comprensión de lectura, disposición para el trabajo individual y en equipo, capacidad de observación, análisis y síntesis e interés por la investigación.</h3>
+       </p>
+       <center></center></div>
+      </div>
+      <div data-role="collapsible" data-content-theme="false">
+       <h4>Perfil de Egreso</h4>
+       <h4>El Criminólogo será un profesional integral con un alto compromiso social, legal y ético, capacitado para explicar, analizar y prevenir el comportamiento antisocial, la delincuencia y sus efectos, dando especial relevancia a los fenómenos delictivos de mayor impacto en el país. Además, el egresado propondrá y promoverá formas eficaces para reducir la criminalidad y para fomentar sociedades menos violentas, más justas y seguras</h4>
+       <br>
+       </div>
+       <div data-role="collapsible" data-content-theme="false">
+       <h4>Campo Laboral<br>
+       </h4>
+  <h4><p>El Criminólogo podrá laborar en instancias públicas ocupadas de la administración y procuración de justicia, de políticas sociales, de promoción de la salud, de formación y de educación, que contribuyan al objetivo de la prevención y reducción del crimen –como fenómeno individual y social. </h4></p></div>
+       <center></center>
+      <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="http://cmas.siu.buap.mx/portal_pprd/wb/EDUCATIVA/criminologia" target="_self" data-role="button">
+           <h4>Mas Información</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4>Criminologia  BUAP</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page10" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>IPN</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div>
+       <CENTER>
+         <h1>Licenciatura en Psicologia</h1>
+         <p>&nbsp;</p>
+         <h2>Objetivo</h2></CENTER>
+       <h3>Formar profesionales con los conocimientos y habilidades   					integrados en una conceptualización, del sujeto psicológico,   					en campos de acción tan diversos como el clínico,   					salud-enfermedad, familiar, cultural, educativa y laboral   					con alta calidad.<a href="http://www.ipn.mx/Paginas/inicio.aspx" target="_self"> IPN</a></h3>
+       <center><p><img src="imagenes/psicologia.jpg" width="306" height="65" alt="psicologia"></p></center>
+       </div>
+      </div>
+      <div data-role="collapsible" data-content-theme="false">
+       <h4>Perfil de Ingreso</h4>
+       <ul>
+         <h4><li> Disposición y aptitudes para el aprendizaje. </li>
+         <li>Interés por la lectura. </li>
+         <li>Comprensión de lectura. </li>
+         <li>Habilidad en la redacción. </li>
+         <li>Actitud de servicio, compromiso, solidaridad y respeto a sus semejantes y sociedad en materia de la salud mental. </li>
+         <li>Manejo de un esquema de valores y ética, así como responsabilidad, disciplina y seriedad. </li>
+         <li>Capacidad de autocontrol y respuesta ante situaciones estresantes, tendientes a la solución de problemas.</li>
+         <li>Interés por la investigación científica de la   conducta humana, así como capacidad de observación, análisis, síntesis,   interpretación, pensamiento lógico, exactitud y rapidez de respuesta. </li>
+         <li>Capacidad para desarrollar, promover y participar en equipos de trabajo inter y multidisciplinarios. </li>
+         <li>Conocimientos básicos de etimologías   grecolatinas e idioma inglés, que le facilitarán la comprensión y   dominio de la terminología especializada del área. </li>
+         <li>Conocimientos básicos de computación y sistemas de información médica y científica.
+       <br>
+       </li></h4>
+       </ul>
+      </div>
+       <div data-role="collapsible" data-content-theme="false">
+       <h4>Perfil de Egreso<br>
+       </h4>
+       <ul>
+         <h4><li>El fomento y promoción del bienestar psicológico   							del individuo, de las instituciones sociales y de la   							comunidad en general. </li>
+         <li>La prevención y tratamiento de alteraciones en   							los estados y procesos psicológicos que impactan a   							la salud mental, los procesos educativos y a las   							organizaciones. </li>
+         <li>La evaluación de estados de funcionamiento   							psicológico de los individuos a través de la   							obtención de indicadores de la personalidad, las   							habilidades cognitivas sociales emocionales y las   							competencias sociales, académicas y laborales. </li>
+         <li>La investigación básica y tecnológica del   							comportamiento humano que genere conocimiento   							científico sustentable. </li></h4>
+       </ul>
+  <h4><p></h4></p></div>
+  <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('psicologiasus','','imagenes/IPN2.jpg',1)"><img src="imagenes/INPINS.jpg" width="280" height="200" id="psicologiasus"></a>
+</center>
+      <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="http://www.ipn.mx/educacionsuperior/Paginas/Lic-Psicologia.aspx" target="_self" data-role="button">
+           <h4>Mas Información</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4> Psicologia en IPN</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page11" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>UDLA</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div>
+       <CENTER>
+         <h1>Psicologia         </h1>
+         <h2>Universidad De Las Americas (Ciudad de Mèxico)</h2></CENTER>
+       <h3>La Universidad de las Américas de la Ciudad de México te ofrece esta Licenciatura que ha sido calificada, en los últimos cinco años, en los primerísimos lugares de los rankings universitarios de los principales diarios nacionales. <a href="http://www.udlacdmx.mx/ver2/" target="_self">UDLA</a></h3>
+       <center>
+         <p>&nbsp;</p></center>
+       </div>
+      </div>
+      <div data-role="collapsible" data-content-theme="false">
+       <h4>Objetivos       </h4>
+       <ul>
+       <h4>Formar profesionales con amplios conocimientos básicos de las áreas de Psicología General, Bases Biológicas de la Conducta, Desarrollo Humano, Evaluación y Diagnóstico, Psicología Clínica u Organizacional para su posterior aplicación en la comprensión del comportamiento de los individuos, las organizaciones y su relación con el contexto. </h4>
+       <h4><li>
+         <p>En el área clínica, el profesional aplicará los conocimientos   teóricos y metodológicos del comportamiento de los individuos en la   aplicación de distintas terapias para la intervención psicológica de   personas con problemas psicosociales.</p>
+         </li>
+         <li>
+           <p>En el área organizacional, el profesional aplicará los conocimientos   teóricos y metodológicos del comportamiento humano en las   organizaciones, para planear y gestionar proyectos de capital humano,   proyectos de desarrollo de talento y potencial humano, y actuar como   agente de cambio organizacional.</p>
+         </li>
+         <li>
+           <p>El profesional ejercerá su profesión con   ética y responsabilidad, tomando decisiones en beneficio de las   personas a quienes atienda, evidenciando en todo momento   profesionalismo, honestidad, respeto por la dignidad de la persona y   tolerancia frente a las diferencias individuales.</p>
+         </li></h4>
+       </ul>
+       <h4><br>
+       </h4>
+  </div>
+       <div data-role="collapsible" data-content-theme="false">
+       <h4>Perfil de Ingreso<br>
+       </h4>
+       <ul>
+         <h4><li>Vocación por la Psicología y el servicio a la comunidad</li>
+           <li>Actitudes de respeto y tolerancia frente a las diferencias   individuales físicas, cognoscitivas, ideológicas, de creencias o   convicciones.</li>
+           <li>Comprensión lectora.</li>
+           <li>Habilidades de comunicación oral y escrita.</li>
+           <li>Facilidad en crear empatía social</li>
+           <li>Capacidad de comprender, analizar y evaluar el comportamiento humano.</li>
+           <li>Capacidad de reflexión crítica.</li>
+           <li>Inquietud por profundizar en el campo del comportamiento humano       </li></h4>
+       </ul>
+       </div>
+  <div data-role="collapsible" data-content-theme="false">
+       <h4>Ventajas del Programa<br>
+    </h4>
+    <ul>
+      <h4><li>Doble Acreditación: Diploma de <em>Bachelor of Arts in Psychology</em> reconocido plenamente en Estados Unidos de América y Título de licenciatura reconocido por la SEP.</li>
+        <li>Todos los profesores cuentan con Maestría y/o Doctorado y amplia   experiencia profesional, lo que te dará la invaluable oportunidad de   aprender de sus conocimientos tanto teóricos como prácticos.</li>
+        <li>Convenios para la realización de internados y prácticas con 13 escenarios reales.</li>
+        <li>Ciclos de conferencias y actividades extracurriculares.</li>
+        <li>Horarios flexibles que te permiten la integración laboral.</li>
+        <li>Vinculación laboral y bolsa de trabajo.</li>
+        <li>Todos los alumnos que egresan presentan el examen EGEL de CENEVAL de reconocimiento nacional.        </li>
+      </h4>
+    </ul>
+    </div>
+  <center><h4><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('udlapsi','','imagenes/UDLACDMX.jpg',1)"><img src="imagenes/UDLA.jpg" width="305" height="143" id="udlapsi"></a></h4>
+  </center>
+      <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="https://www.udlacdmx.mx/ver2/index.php/oferta-educativa/licenciaturas/psicologia.html" target="_self" data-role="button">
+           <h4>Mas Información</h4>
+           </a>
+        </li>
+      </ul>
+       </div>
+      </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4> Psicologia en UDLA</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+</div> 
+     </div>
+           
+</body>
+</html>
